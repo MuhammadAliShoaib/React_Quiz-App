@@ -1,0 +1,97 @@
+.App {
+  text-align: center;
+  background-color: #FDEBED;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.quiz{
+  background-color: white;
+  width: 500px;
+  box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
+  border: 1px solid #cce7d0;
+}
+
+.box h1{
+  margin: 10px;
+  padding: 10px;
+  background-color: #FFAACF;
+}
+
+.sub{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 15px 0 15px;
+}
+
+.sub h3{
+  margin: 0;
+}
+
+.questionBox h1{
+  background-color: #E8E2E2;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.answerBox{
+  margin: 10px;
+}
+
+.answerBox button{
+  margin: 10px;
+  font-size: 20px;
+  background-color: white;
+  border: 1px solid #cce7d0;
+  padding: 5px;
+  width: 100%;
+  max-width: 400px;
+}
+
+.answerBox button:hover{
+  background-color: #E8E2E2;
+}
+
+.statusIcons{
+  display: flex;
+  justify-content: center;
+}
